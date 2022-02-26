@@ -37,7 +37,7 @@ const UsersList = (props) => {
   return (
     <div className='container mt-5 mb-5'>
       <div className='card shadow mx-auto' style={{ width: "" }}>
-        <div className='card-body '>
+        <div className='card-body'>
           {/* Form Start */}
           <form onSubmit={addUserHandler}>
             <div className='mb-3 d-flex justify-content-center'>
