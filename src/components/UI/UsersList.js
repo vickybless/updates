@@ -35,8 +35,8 @@ const UsersList = (props) => {
     setEnteredLogThree(event.target.value);
   };
   return (
-    <div className='container-fluid'>
-      <div className='card shadow mx-auto' style={{ width: "800px" }}>
+    <div className='container mt-5 mb-5'>
+      <div className='card shadow mx-auto' style={{ width: "" }}>
         <div className='card-body '>
           {/* Form Start */}
           <form onSubmit={addUserHandler}>
